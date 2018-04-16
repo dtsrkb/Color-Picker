@@ -14,6 +14,7 @@
 		9E23F91F20851569001FB287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E23F91D20851569001FB287 /* LaunchScreen.storyboard */; };
 		9E23F92A20851569001FB287 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23F92920851569001FB287 /* Color_PickerTests.swift */; };
 		9E23F93520851569001FB287 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23F93420851569001FB287 /* Color_PickerUITests.swift */; };
+		9E23F94320851DDE001FB287 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23F94220851DDE001FB287 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9E23F93020851569001FB287 /* Color PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E23F93420851569001FB287 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		9E23F93620851569001FB287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E23F94220851DDE001FB287 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9E23F91B20851569001FB287 /* Assets.xcassets */,
 				9E23F91D20851569001FB287 /* LaunchScreen.storyboard */,
 				9E23F92020851569001FB287 /* Info.plist */,
+				9E23F94220851DDE001FB287 /* Colors.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E23F91720851567001FB287 /* ViewController.swift in Sources */,
+				9E23F94320851DDE001FB287 /* Colors.swift in Sources */,
 				9E23F91520851567001FB287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
